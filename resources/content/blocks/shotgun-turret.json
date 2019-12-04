@@ -1,0 +1,75 @@
+type: itemTurret
+name: Torreta Escopetera
+description: Torreta de bajo consumo capaz de aniquilar grandes hordas de enemigos a corta distancia
+hasPower: true
+health: 1400
+targetAir: false
+ammoPerShot: 1
+range: 75
+size: 1
+innacuracy: 10
+reload: 100
+shootCone: 45
+rotateSpeed: 55
+shots: 20
+ammo: {
+  neon: {
+  type: MissileBulletType 
+  lifetime: 50
+  speed: 2
+  damage: 1250
+  frontColor: ff0000
+  backColor: ff0000
+  bulletWidth: 5
+  bulletHeight: 10
+ }
+  surge-alloy: {
+  type: MissileBulletType 
+  lifetime: 50
+  speed: 2
+  damage: 750
+  frontColor: fff000
+  backColor: ff00ff
+  bulletWidth: 4
+  bulletHeight: 8
+  }
+  thorium: {
+  type: MissileBulletType 
+  lifetime: 50
+  speed: 2
+  damage: 480
+  frontColor: ffffff
+  backColor: ff0000
+  bulletWidth: 3
+  bulletHeight: 6
+  }
+  titanium: {
+  type: MissileBulletType 
+  lifetime: 50
+  speed: 2
+  damage: 200
+  frontColor: ff00ff
+  backColor: ffff00
+  bulletWidth: 3
+  bulletHeight: 6
+  }
+  copper: {
+  type: MissileBulletType 
+  lifetime: 50
+  speed: 1
+  damage: 100
+  frontColor: ff0000
+  backColor: ff00ff
+  bulletWidth: 3
+  bulletHeight: 6
+  }
+} 
+requirements: [
+thorium/50
+copper/150
+titanium/75
+metaglass/20
+]
+ category: turret
+ shootSound: flak
+

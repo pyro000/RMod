@@ -1,0 +1,6 @@
+type: material
+name: Estrella
+description: Estrella de las galaxias, puede ser usado para crear torretas y bloques potentes
+cost: 2.5
+hardness: 3
+color:ff00ff

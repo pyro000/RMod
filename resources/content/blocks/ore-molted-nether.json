@@ -1,0 +1,6 @@
+{
+  "type": "OreBlock", 
+  "itemDrop": "molted-nether", 
+  "variants": 1,
+  "playerUnmineable": true, 
+}

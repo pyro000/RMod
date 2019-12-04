@@ -1,0 +1,22 @@
+name: Excavadora De Obsidiana
+description: Una excavadora hecha de obsidiana, capaz de minar muy rapido, velocidad de la luz.
+type: Drill
+health: 1400
+size: 2
+tier: 9
+drillTime: 9
+consumes: {
+  power: 15
+  liquid: {
+    liquid: water
+    amount: 0.3
+    booster: true
+  }
+}
+requirements: [
+  star/50
+  neon/100
+  nether/150
+]
+category: production
+research: obsidian-drill

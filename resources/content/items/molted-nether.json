@@ -1,0 +1,9 @@
+{
+	"type": "resource",
+	"name": "Molted Nether",
+	"description": "Piezas de Nether",
+	"cost": 2.5,
+    "playerUnmineable": true
+	"hardness": 5
+	"color": "ffffff"
+}

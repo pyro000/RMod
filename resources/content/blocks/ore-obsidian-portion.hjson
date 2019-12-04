@@ -1,0 +1,4 @@
+type: OreBlock
+itemDrop: obsidian-portion
+variants: 1
+playerUnmineable: true

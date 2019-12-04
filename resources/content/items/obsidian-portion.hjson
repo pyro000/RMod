@@ -1,0 +1,7 @@
+type: resource
+name: Piezas de Obsidiana
+description: pequeñas piezas de obsidiana, suficientes de estas pueden crear un bloque de obsidiana.
+hardness: 9
+cost: 2.5
+color: ffffff
+playerUnmineable: true

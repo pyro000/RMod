@@ -1,0 +1,23 @@
+name: Excavadora Nuclear
+description: Una excavadora nuclear muy potente, capaz de minar muy rapido, velocidad de la luz.
+type: Drill
+health: 1900
+size: 2
+tier: 12
+drillTime: 0
+liquidCapacity: 2000
+consumes: {
+  power: 30
+  liquid: {
+    liquid: water
+    amount: 20
+    booster: true
+  }
+}
+requirements: [
+  star/1000
+  neon/2000
+  nether/1500
+]
+category: production
+research: nuclear-drill

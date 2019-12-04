@@ -1,0 +1,28 @@
+{
+  "type": "LiquidTurret", 
+  "name": "Lanza Lanzallamas", 
+  "description": "Un lanzallamas potente capaz de destruir cualquier enemigo en su radio",
+    "targetAir": false,
+    "targetGround": true,
+    "health": 1200,
+    "size": 1,
+    "inaccuracy": 10,
+    "reload":  0.1,
+    "shootCone": 45,
+    "rotateSpeed": 40,
+    "shots": 4,
+    "range": 70,
+    "ammo": {
+      "water": {
+      "type": "MissileBulletType", 
+      "damage": 40,
+   }, 
+  }, 
+  "requirements": [
+    { "item": "copper", "amount": 50 }, 
+    { "item": "titanium", "amount": 30 },
+    { "item": "silicon", "amount": 15 }
+   ], 
+   "category": "turret", 
+   "shootSound": "flak"
+ }

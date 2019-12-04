@@ -1,0 +1,12 @@
+{
+	"name": "Large Diamond Wall",
+	"description": "An ultra hard wall made from the simplest material to craft.",
+	"type": "Wall",
+	"health": 7500,
+	"size": 2,
+	"requirements": [
+		{ "item": "processed-diamond", "amount": 100 }
+	],
+	"category": "defense",
+	"research": "large-diamond-wall"
+}

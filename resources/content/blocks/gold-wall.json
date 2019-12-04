@@ -1,0 +1,12 @@
+{
+	"name": "Mega Gold Wall",
+	"description": "Una increíble muralla de oro imposible de romper.",
+	"type": "Wall",
+	"health": 4300,
+	"size": 1,
+	"requirements": [
+		{ "item": "processed-diamond", "amount": 25 }
+	],
+	"category": "defense",
+	"research": "gold-wall"
+}

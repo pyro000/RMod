@@ -1,0 +1,18 @@
+{
+	"type": "groundUnit",
+	"name": "Flash",
+	"description": "This speedy unit will decimate your turrets if proximity is too close.",
+	"speed": 1.0,
+	"flying": false,
+	"health": 120,
+	"engineOffset": 5.5,
+	"range": 3,
+	"weapon": {
+		"name": "shatterer",
+		"length": 1.0,
+		"reload": 0.1,
+		"alternate": true,
+		"bullet": "lightning",
+		"damage": 300,
+	}
+}

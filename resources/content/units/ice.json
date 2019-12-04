@@ -1,0 +1,17 @@
+{
+  "type": "groundUnit",
+  "name": "Tank",
+  "description": "Unidad tanque, capaz de aguantar ataques muy duros.",
+  "speed": 0.05,
+  "maxVelocity": 0.5,
+  "flying": false,
+  "health": 10000,
+  "engineOffset": 1,
+  "engineSize": 1,
+  "range": 3,
+	"weapon": {
+  "reload": 120, 
+  "bullet": "standardCopper",
+  "damage": 5,
+	} 
+}

@@ -1,0 +1,31 @@
+{
+	"type": "ChargeTurret",
+	"name": "Torreta Laser",
+	"description": "Torreta capaz de destruir y vaporar cualquier enemigo que encuentre, utiliza muchísima energia.",
+	"health": 3000,
+	"size": 1,
+	"reload": 30,
+	"range": 200,
+	"chargeTime": 7,
+	"chargeMaxDelay": 7,
+	"chargeEffects": 15,
+	"cooldown": 0.02, 
+	"recoil": 0.5, 
+	"powerUse": 30, 
+	"shootShake": 4, 
+	"shootEffect": "lancerLaserShoot"
+	"smokeEffect": "lancerLaserShootSmoke"
+	"chargeEffect": "lancerLaserCharge"
+	"chargeBeginEffect": "lancerLaserChargeBegin"
+	"shootType": "lancerLaser",
+	"inaccuracy": 0.1,
+	"rotatespeed": 12,
+	"requirements": [
+   { "item": "copper", "amount": 250 }, 
+   { "item": "thorium", "amount": 125 }, 
+   { "item": "neon", "amount": 50 }, 
+	],
+	"category": "turret"
+	"shootSound": "laserbig"
+	"research": "laser-turret"
+}

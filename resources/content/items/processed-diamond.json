@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Processed Diamond",
+	"description": "A certain Diamond that requires a blend of precisely calculated pressures.",
+	"cost": 2.5,
+	"color": "dcd16b"
+}

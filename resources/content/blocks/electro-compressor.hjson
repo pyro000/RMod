@@ -1,0 +1,34 @@
+type: GenericSmelter
+name: Fabricador De Estrellas
+description: fabrica de estrellas, necesita neon, nether y energía para fabricarlas.
+health: 2000
+size: 3
+hasItems: true
+hasPower: true
+itemCapacity: 400
+outputItem: star/1
+craftTime: 500
+updateEffect: producesmoke
+consumes: {
+  power: 20
+  items: {
+    items: [
+    neon/30
+    nether/15
+	star-portion/8
+    ]
+  }
+}
+
+requirements: [
+thorium/150
+metaglass/75
+silicon/200
+neon/50
+nether/20
+]
+
+research: electro-compressor
+category: crafting
+idleSound: respawning
+idleSoundVolume: 0.5

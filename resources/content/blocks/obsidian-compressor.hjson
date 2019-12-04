@@ -1,0 +1,31 @@
+type: GenericSmelter
+name: Compresor de Obsidiana
+description: compresa el carbon y las piezas de obsidiana en obsidiana pura, necesita energía
+hasPower: true
+hasItems: true
+hasLiquids: true
+size: 2
+updateEffect: producesmoke 
+itemCapacity: 600
+outputItem: obsidian/1
+craftTime: 900
+health: 2540
+consumes: {
+  power: 20
+  items: {
+    items: [
+    coal/50
+    obsidian-portion/25
+	]
+  }
+}
+requirements: [
+star/175
+nether/220
+neon/245
+]
+
+category: crafting
+research: obsidian-compressor
+idleSound: respawning
+idleSoundVolume: 0.5

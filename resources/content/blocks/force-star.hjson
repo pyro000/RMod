@@ -1,0 +1,32 @@
+type: ForceProjector
+name: Proyector De Estrella
+description: Proyector hecho de estrellas, mucho mas potente que el normal
+size: 4
+health: 1000
+hasPower: true
+hasItems: true
+hasLiquids: false
+consumes: {
+  power: 30
+  items: {
+    items: [
+    neon/5
+    nether/3
+    ]
+  }
+}
+phaseUseTime: 100
+phaseRadiusBoost: 120
+radius: 160
+breakage: 6000
+cooldownNormal: 5
+cooldownBrokenBase: 5
+basePowerDraw: 2
+
+requirements: [
+neon/50
+nether/50
+star/20
+]
+category: effect
+activeSound: respawn

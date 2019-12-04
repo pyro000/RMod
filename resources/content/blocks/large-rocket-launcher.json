@@ -1,0 +1,37 @@
+{
+    "type": "itemTurret",
+    "name": "Lanza Cohetes",
+    "description": "Suelta tremendos bombazos que pueden aniquilar cualquier enemigo en medio",
+    "targetAir": true,
+    "targetGround": true,
+    "health": 2000,
+    "size": 4,
+    "inaccuracy": 0,
+    "reload":  600,
+    "shootCone": 45,
+    "rotateSpeed": 40,
+    "shots": 1,
+    "range": 300,
+    "ammo": {
+        "copper": {
+	    "type": "MissileBulletType",
+	    "lifetime": 100,
+	    "splashDamageRadius": 250,
+	    "splashDamage": 750,
+            "speed": 4,
+            "damage": 4000,
+	    "frontColor": "ffff00",
+	    "backColor": "00ffff",
+	    "homingPower": 1,
+	    "homingRange": 1,
+	    "bulletWidth": 100,
+	    "bulletHeight": 200,
+        },
+    },
+    "requirements": [
+        { "item": "titanium", "amount": 250 }, 
+			{ "item": "silicon", "amount": 250 }, 
+    ],
+    "category": "turret"
+    "shootSound": "shootBig"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "groundUnit",
+  "name": "Fire Monster",
+  "description": "Cuidado cin este boss! Capaz de aguantar cantidades increibles y absorber la vida de tus defensas!.",
+  "speed": 0.01,
+  "flying": false,
+  "health": 50000,
+  "engineOffset": 5.5,
+  "range": 20,
+  "weapon": {
+    "name": "executer",
+    "length": 1.0,
+    "reload": 100,
+    "shots": 10,
+    "alternate": true,
+    "bullet": "standardThorium",
+    "damage": 2000,
+  }
+}

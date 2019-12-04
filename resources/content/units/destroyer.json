@@ -1,0 +1,18 @@
+{
+	"type": "groundUnit",
+	"name": "Destroyer",
+	"description": "Esta unidad destruirá lentamente los edificios.",
+	"speed": 0.1,
+	"flying": false,
+	"health": 1000,
+	"engineOffset": 5.5,
+	"range": 3,
+	"weapon": {
+		"name": "destroyerer",
+		"length": 3.0,
+		"reload": 60,
+		"alternate": true,
+		"bullet": "lightning",
+		"damage": 50,
+	}
+}

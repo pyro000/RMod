@@ -1,0 +1,20 @@
+type: ItemBridge
+name: Puente De Nether
+description: un puente de nether mas grande y amplio que el de piedra.
+health: 1000
+size: 1
+transportTime: 2
+range: 20
+itemCapacity: 100
+hasItems: true
+hasLiquids: false
+hasPower: true
+consumes: {
+  power: 10
+}
+requirements: [
+nether/100
+]
+
+research: nether-bridge
+category: distribution

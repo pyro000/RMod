@@ -1,0 +1,36 @@
+{
+	"type": "GenericSmelter",
+	"name": "Compresor de Nether",
+	"description": "Compresa el carbo y el molted nether en Nether fundido. Necesita energía.",
+	"liquidCapacity": 1000,
+	"itemCapacity": 600,
+	"outputItem": {"item": "nether", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 500,
+	"updateEffect": "producesmoke",
+	"consumes": {
+		"power": 10.0,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 30 }
+				{ "item": "molted-nether", "amount": 7 }
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 5
+		}
+	},
+	"requirements": [
+		{ "item": "neon", "amount": 100 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "titanium", "amount": 500 },
+	],
+	"category": "crafting",
+	"research": "nether-compressor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

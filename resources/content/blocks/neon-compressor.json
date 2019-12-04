@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "Compresor de Neon",
+	"description": "Compresa el carbon en neon fundido. Necesita energía y carbon",
+	"liquidCapacity": 500,
+	"itemCapacity": 120,
+	"outputItem": {"item": "neon", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 200,
+	"updateEffect": "producesmoke",
+	"consumes": {
+		"power": 5.0,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 15 }
+			]
+		},
+		"liquid": {
+			"liquid": "water",
+			"amount": 2
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 250 },
+		{ "item": "silicon", "amount": 10 },
+		{ "item": "titanium", "amount": 100 },
+	],
+	"category": "crafting",
+	"research": "neon-compressor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

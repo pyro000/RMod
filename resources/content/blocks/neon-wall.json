@@ -1,0 +1,12 @@
+{
+	"name": "Neon Wall",
+	"description": "Muro de neon hecho a mano, capaz de resistir intensas oleada.",
+	"type": "Wall",
+	"health": 10000,
+	"size": 1,
+	"requirements": [
+		{ "item": "neon", "amount": 5 },
+	],
+	"category": "defense",
+	"research": "neon-wall"
+}

@@ -1,0 +1,16 @@
+type: PowerNode
+name: Nodo De Energia Nuy Grande
+description: necesitas mas energia para desplazar? Esta es tu mejor opción!
+hasPower: true
+size: 3
+health: 1400
+laserRange: 32
+maxNodes: 50
+requirements: [
+neon/20
+nether/20
+star/10
+]
+
+category: power
+research: large-node-power

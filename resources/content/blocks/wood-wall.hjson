@@ -1,0 +1,10 @@
+type: wall
+name: Muralla de Madera
+description: una muralla de madera inflamable, no la dejes arder
+health: 500
+size: 1
+requirements: [
+wood/12
+]
+category: defense
+research: wood-wall

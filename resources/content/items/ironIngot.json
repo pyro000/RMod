@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Lingote De Iron",
+	"description": "Lingote de Hierro difícil de conseguir.",
+	"cost": 2.5,
+	"color": "ff0000"
+}

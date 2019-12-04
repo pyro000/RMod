@@ -1,0 +1,53 @@
+{
+    "type": "itemTurret",
+    "name": "Mega Torreta",
+    "description": "Capaz de aniquilar cualquier enemigo",
+    "targetAir": true,
+    "targetGround": true,
+    "health": 1500,
+    "size": 1,
+    "inaccuracy": 50,
+    "reload":  0.1,
+    "shootCone": 45,
+    "rotateSpeed": 40,
+    "shots": 4,
+    "range": 100,
+    "ammo": {
+        "copper": {
+	    "type": "MissileBulletType",
+	    "lifetime": 250,
+	    "splashDamageRadius": 9,
+	    "splashDamage": 15,
+            "speed": 3,
+            "damage": 10,
+	    "frontColor": "ffff00",
+	    "backColor": "00ffff",
+	    "homingPower": 1,
+	    "homingRange": 1,
+	    "bulletWidth": 2,
+	    "bulletHeight": 4,
+        },
+        "thorium": {
+	    "type": "MissileBulletType",
+	    "lifetime": 250,
+	    "splashDamageRadius": 6,
+	    "splashDamage": 25,
+            "speed": 6,
+            "damage": 50,
+	    "frontColor": "ffff00",
+	    "backColor": "00ffff",
+	    "homingPower": 1,
+	    "homingRange": 1,
+	    "bulletWidth": 2,
+	    "bulletHeight": 4,
+
+        }
+    },
+    "requirements": [
+        { "item": "titanium", "amount": 100 },
+        { "item": "thorium", "amount": 50 },
+        { "item": "silicon", "amount": 20 }
+    ],
+    "category": "turret"
+    "shootSound": "flak"
+}

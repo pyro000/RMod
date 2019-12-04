@@ -1,0 +1,12 @@
+{
+	"name": "Nether Wall",
+	"description": "Muro de nether inflamable, muy duro y eficaz.",
+	"type": "Wall",
+	"health": 20000,
+	"size": 2,
+	"requirements": [
+		{ "item": "nether", "amount": 5 },
+	],
+	"category": "defense",
+	"research": "large-nether-wall"
+}

@@ -1,0 +1,7 @@
+{
+	"type": "material",
+	"name": "Neon",
+	"description": "Pequeñas piezas de neon.",
+	"cost": 2.5,
+	"color": "ffffff"
+}

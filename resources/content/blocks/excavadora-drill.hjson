@@ -1,0 +1,22 @@
+name: Excavadora De Nether
+description: Una excavadora hecha de nether, capaz de minar muy rapido.
+type: Drill
+size: 2
+health: 750
+tier: 7
+drillTime: 17
+consumes: {
+  power: 10
+  liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  surge-alloy/125
+  neon/75
+  nether/30
+]
+category: production
+research: excavadora-drill

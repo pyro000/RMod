@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "Compresor Natural",
+	"description": "Quema la madera con energia y la convierte en 2 de carbón",
+	"liquidCapacity": 500,
+	"itemCapacity": 60,
+	"outputItem": {"item": "coal", "amount": 2},
+	"size": 2,
+	"hasLiquids": false, 
+	"hasItems": true
+	"craftTime": 60, 
+	"updateEffect": "producesmoke",
+	"consumes": {	  
+	  "power": 1,	
+		"items": {
+			"items": [
+				{ "item": "wood", "amount": 3 },
+			],
+		},
+		
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "lead", "amount": 50 },
+	],
+	"category": "crafting",
+	"research": "natural-compressor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

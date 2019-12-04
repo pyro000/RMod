@@ -1,0 +1,36 @@
+{
+    "type": "itemTurret",
+    "name": "Mega Torreta v2",
+    "description": "Capaz de aniquilar cualquier enemigo mas rapido que nada",
+    "targetAir": true,
+    "targetGround": true,
+    "health": 1500,
+    "size": 1,
+    "inaccuracy": 0,
+    "reload":  1,
+    "shootCone": 45,
+    "rotateSpeed": 40,
+    "shots": 1,
+    "range": 200,
+    "ammo": {
+        "copper": {
+	    "type": "MissileBulletType",
+	    "lifetime": 100,
+	    "splashDamageRadius": 0,
+	    "splashDamage": 0,
+            "speed": 12,
+            "damage": 10,
+	    "frontColor": "ffff00",
+	    "backColor": "00ffff",
+	    "homingPower": 1,
+	    "homingRange": 1,
+	    "bulletWidth": 2,
+	    "bulletHeight": 4,
+        },
+    },
+    "requirements": [
+        { "item": "copper", "amount": 999 }
+    ],
+    "category": "turret"
+    "shootSound": "flak"
+}

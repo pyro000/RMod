@@ -1,0 +1,66 @@
+type: itemTurret
+name: Torre Estelar
+description: Torreta pequeña hecha de estrellas, una opcion buena para aniquilar monstruos a larga distancia
+hasPower: true
+size: 1
+health: 3400
+shootCone: 45 
+rotateSpeed: 55 
+reload: 15
+shots: 35
+range: 250
+innacuracy: 5
+ammoPerShot: 1
+consumes: {
+  power: 20
+}
+ammo: {
+  surge-alloy: {
+    type: BasicBulletType
+    damage: 20
+    speed: 3
+    lifetime: 120
+    frontColor: ffff00
+    backColor: ffff00
+    bulletHeight: 4
+    bulletWidth: 8
+  }
+  neon: {
+    type: BasicBulletType
+    damage: 60
+    speed: 4
+    lifetime: 130
+    frontColor: ffff00
+    backColor: ffff00
+    bulletHeight: 5
+    bulletWidth: 10
+  }
+  nether: {
+    type: BasicBulletType
+    damage: 120
+    speed: 5
+    lifetime: 150
+    frontColor: ffff00
+    backColor: ffff00
+    bulletHeight: 7
+    bulletWidth: 14
+}
+  star: {
+    type: BasicBulletType
+    damage: 200
+    speed: 6
+    lifetime: 170
+    frontColor: ffff00
+    backColor: ffff00
+    bulletHeight: 9
+    bulletWidth: 18
+  }
+ } 
+requirements: [
+star/30
+neon/100
+nether/70
+]
+
+category: turret
+shootSound: flak

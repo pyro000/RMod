@@ -1,0 +1,26 @@
+type: MendProjector
+name: Curador De Torres Pequeño
+description: cura torres y murallas en un radio pequeño
+health: 500
+size: 1
+range: 75
+color: 00bb2d
+phase: ff0000
+phaseBoost: 2
+phaseRangeBoost: 75
+reload: 50
+healPercent: 2
+useTime: 400
+hasPower: true
+consumes: {
+  power: 5
+}
+requirements: [
+copper/50
+thorium/30
+titanium/20
+]
+
+category: effect
+activeSound: respawning
+

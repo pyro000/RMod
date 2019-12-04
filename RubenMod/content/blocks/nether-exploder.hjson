@@ -1,0 +1,54 @@
+type: itemTurret
+name: Nether Exploder
+description: Torreta devastadora, hecha de nether puro.
+health: 3100
+reload: 22
+ammoPerShot: 0.5
+shots: 2
+innacuracy: 5
+size: 3
+range: 200
+hasPower: true
+consumes: {
+  power: 12
+}
+ammo: {
+  neon: {
+    type: BasicBulletType
+    bulletHeight: 10
+    bulletWidth: 10
+    damage: 250
+    lifetime: 50
+    speed: 10
+    splashDamageRadius: 10
+    splashDamage: 125
+    fragBullets: 2
+    fragBullet: {
+      type: BasicBulletType 
+      bulletHeight: 5
+      bulletWidth: 5
+      damage: 125
+      lifetime: 40
+      speed: 7
+      splashDamageRadius: 6
+      splashDamage: 62
+      fragBullets: 5
+      fragBullet: {
+        type: BasicBulletType 
+        bulletHeight: 3
+        bulletWidth: 3
+        splashDamageRadius: 3
+        splashDamage: 31
+        damage: 62
+        lifetime: 30
+        speed: 5
+      }
+    }
+  }
+}
+requirements: [
+nether/50
+neon/30
+]
+research: nether-exploder
+category: turret

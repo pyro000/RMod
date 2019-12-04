@@ -1,0 +1,21 @@
+type: SingleTypeGenerator
+name: Generador De Combustión Avanzado
+description: Genera energia mediante la madera, alto riesgo de explosión
+size: 2
+health: 600
+itemCapacity: 100
+powerProduction: 10
+itemDuration: 22
+hasItems: true
+consumes: {
+  items: {
+    items: [
+    wood/1
+    ]
+  }
+}
+requirements: [
+neon/10
+nether/6
+]
+category: power

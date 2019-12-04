@@ -13,8 +13,6 @@ consumes: {
   power: 20
   items: {
     items: [
-    neon/30
-    nether/15
 	star-portion/8
     ]
   }

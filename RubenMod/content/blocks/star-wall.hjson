@@ -1,0 +1,12 @@
+type: DeflectorWall
+name: Muralla Estelar
+description: Muralla hecha por estrellas, una opcion para debilitar el ataque enemigo
+health: 9750
+hitTime: 10
+maxDamageDeflect: 200
+size: 3
+requirements: [
+star/6
+]
+category: defense
+research: star-wall

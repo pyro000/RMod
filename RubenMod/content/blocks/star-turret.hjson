@@ -3,11 +3,11 @@ name: Torre Estelar
 description: Torreta pequeña hecha de estrellas, una opcion buena para aniquilar monstruos a larga distancia
 hasPower: true
 size: 1
-health: 3400
+health: 3900
 shootCone: 45 
 rotateSpeed: 55 
-reload: 15
-shots: 35
+reload: 30
+shots: 15
 range: 250
 innacuracy: 5
 ammoPerShot: 1

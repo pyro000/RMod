@@ -1,0 +1,10 @@
+type: Conveyor
+name: Transportador De Nether
+description: Transportador hecho de nether, muy rapido y con buena capacidad.
+requirements: [
+nether/1
+]
+category: distribution
+itemCapacity: 7
+speed: 0.24
+research: nether-conveyor

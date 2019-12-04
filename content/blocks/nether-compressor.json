@@ -9,19 +9,19 @@
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
-	"craftTime": 500,
+	"craftTime": 250,
 	"updateEffect": "producesmoke",
 	"consumes": {
-		"power": 10.0,
+		"power": 8.0,
 		"items": {
 			"items": [
-				{ "item": "coal", "amount": 30 }
+				{ "item": "coal", "amount": 20 }
 				{ "item": "molted-nether", "amount": 7 }
 			]
 		},
 		"liquid": {
 			"liquid": "water",
-			"amount": 5
+			"amount": 2
 		}
 	},
 	"requirements": [

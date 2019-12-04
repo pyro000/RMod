@@ -8,21 +8,21 @@ size: 2
 updateEffect: producesmoke 
 itemCapacity: 600
 outputItem: obsidian/1
-craftTime: 900
+craftTime: 450
 health: 2540
 consumes: {
-  power: 20
+  power: 15
   items: {
     items: [
-    coal/50
-    obsidian-portion/25
+    coal/20
+    obsidian-portion/17
 	]
   }
 }
 requirements: [
-star/175
-nether/220
-neon/245
+star/100
+nether/100
+neon/100
 ]
 
 category: crafting

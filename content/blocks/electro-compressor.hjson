@@ -7,10 +7,10 @@ hasItems: true
 hasPower: true
 itemCapacity: 400
 outputItem: star/1
-craftTime: 500
+craftTime: 250
 updateEffect: producesmoke
 consumes: {
-  power: 20
+  power: 13
   items: {
     items: [
 	star-portion/8

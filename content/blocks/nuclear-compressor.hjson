@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Compresor Nuclear
+description: compresor de alta Combustion, necesita kuchas piezas nucleares para crear lingotes nucleares, necesita energía
+hasPower: true
+hasItems: true
+hasLiquids: true
+size: 2
+updateEffect: producesmoke 
+itemCapacity: 600
+outputItem: nuclear-ingot/1
+craftTime: 500
+health: 2540
+consumes: {
+  power: 20
+  items: {
+    items: [
+    nuclear-portion/25
+	]
+  }
+}
+requirements: [
+obsidian/100
+star/50
+]
+
+category: crafting
+research: nuclear-compressor
+idleSound: respawning
+idleSoundVolume: 0.5

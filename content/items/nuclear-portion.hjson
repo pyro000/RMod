@@ -1,0 +1,7 @@
+type: resource
+name: Piezas Nucleares
+description: Piezas nucleares, me pregunto quien las tiro...
+hardness: 12
+cost: 2.5
+color: ff0000
+playerUnmineable: true

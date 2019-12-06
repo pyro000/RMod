@@ -1,0 +1,63 @@
+type: itemTurret
+name: Torreta Nuclear
+description: Peligro! Esta torreta puede devastar muy rapido.
+health: 8200
+size: 4
+hasItems: true
+hasPower: false
+range: 300
+ammoPerShot: 3
+reload: 400
+consumes: {
+  power: 20
+}
+ammo: {
+  nether: {
+    type: BasicBulletType 
+    bulletWidth: 200
+    bulletHeight: 200
+    splashDamageRadius: 100
+    splashDamage: 700
+    lifetime: 90
+    speed: 10
+    damage: 1400
+    fragBullets: 5
+    fragBullet: {
+      type: BasicBulletType 
+      damage: 700
+      lifetime: 70
+      splashDamage: 400
+      splashDamageRadius: 80
+      speed: 8
+      bulletHeight: 140
+      bulletWidth: 140
+      fragBullets: 10
+      fragBullet: {
+      type: BasicBulletType 
+      damage: 400
+      lifetime: 50
+      splashDamage: 240
+      splashDamageRadius: 80
+      speed: 6
+      bulletHeight: 70
+      bulletWidth: 70
+      fragBullets: 15
+      fragBullet: {
+      type: BasicBulletType 
+      damage: 240
+      lifetime: 40
+      splashDamage: 100
+      splashDamageRadius: 40
+      speed: 4
+      bulletHeight: 40
+      bulletWidth: 40
+        }
+      }
+    }
+  }
+}
+requirements: [
+nuclear-ingot/100
+]
+category: turret
+research: nuclear-devastator1

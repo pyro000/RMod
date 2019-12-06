@@ -3,21 +3,14 @@ description: Una excavadora nuclear muy potente, capaz de minar muy rapido, velo
 type: Drill
 health: 1900
 size: 2
-tier: 12
-drillTime: 0
+tier: 14
+drillTime: 1
 liquidCapacity: 2000
 consumes: {
   power: 30
-  liquid: {
-    liquid: water
-    amount: 20
-    booster: true
-  }
 }
 requirements: [
-  star/1000
-  neon/2000
-  nether/1500
+  obsidian/200
 ]
 category: production
 research: nuclear-drill

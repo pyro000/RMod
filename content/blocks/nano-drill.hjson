@@ -2,12 +2,19 @@ name: Nano Drill
 description: Una excavadora muy pequeña, mina cualquier item de Early Game muy rapido.
 type: Drill
 size: 1
+liquidCapacity: 10
 health: 750
+hasLiquids: true
 tier: 4
 drillTime: 0.01
 consumes: {
   power: 0.20
-}
+liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+  }
+} 
 requirements: [
   nether/1
 ]

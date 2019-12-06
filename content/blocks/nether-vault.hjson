@@ -1,0 +1,12 @@
+name: Nether Vault
+description: Una bóveda mas amplia que la normal, hecha de nether
+type: Vault
+itemCapacity: 5000
+hasItems: true
+health: 4000
+size: 3
+requirements: [
+  nether/50
+]
+category: effect
+research: nether-vault

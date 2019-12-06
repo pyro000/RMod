@@ -1,0 +1,18 @@
+{
+	"type": "groundUnit",
+	"name": "Ghost",
+	"description": "Esta unidad destruirá lentamente los edificios.",
+	"speed": 0.1,
+	"flying": false,
+	"health": 1000,
+	"engineOffset": 5.5,
+	"range": 100,
+	"weapon": {
+		"name": "ghoster",
+		"length": 3.0,
+		"reload": 10
+		"alternate": true,
+		"bullet": "standardCopper",
+		"damage": 20,
+	}
+}

@@ -3,7 +3,7 @@ description: Una excavadora hecha de obsidiana, capaz de minar muy rapido, veloc
 type: Drill
 health: 1400
 size: 2
-tier: 9
+tier: 11
 drillTime: 9
 consumes: {
   power: 15

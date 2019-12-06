@@ -10,7 +10,7 @@ hasItems: false
 hasLiquids: true
 hasPower: true
 consumes: {
-  power: 10
+  power: 2
 }
 requirements: [
 nether/100

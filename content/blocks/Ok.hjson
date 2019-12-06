@@ -1,0 +1,11 @@
+type: Vault
+name: Ok
+description: un simple simbolo de -ok-
+requirements: [
+copper/1
+]
+hasItems: true
+health: 1
+itemCapacity: 1
+category: effect
+research: Ok

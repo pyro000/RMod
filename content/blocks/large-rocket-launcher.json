@@ -19,7 +19,7 @@
 	    "splashDamageRadius": 250,
 	    "splashDamage": 750,
             "speed": 4,
-            "damage": 4000,
+            "damage": 500, 
 	    "frontColor": "ffff00",
 	    "backColor": "00ffff",
 	    "homingPower": 1,

@@ -1,7 +1,7 @@
 type: wall
 name: Muralla de Madera
 description: una muralla de madera inflamable, no la dejes arder
-health: 500
+health: 300
 size: 1
 requirements: [
 wood/12

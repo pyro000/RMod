@@ -4,7 +4,7 @@
   "description": "Cuidado cin este boss! Capaz de aguantar cantidades increibles y absorber la vida de tus defensas!.",
   "speed": 0.01,
   "flying": false,
-  "health": 50000,
+  "health": 3000, 
   "engineOffset": 5.5,
   "range": 20,
   "weapon": {
@@ -14,6 +14,6 @@
     "shots": 10,
     "alternate": true,
     "bullet": "standardThorium",
-    "damage": 2000,
+    "damage": 200,
   }
 }

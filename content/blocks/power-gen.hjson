@@ -4,7 +4,7 @@ description: Genera energia mediante la madera, alto riesgo de explosión
 size: 2
 health: 600
 itemCapacity: 100
-powerProduction: 10
+powerProduction: 13.3
 itemDuration: 22
 hasItems: true
 consumes: {

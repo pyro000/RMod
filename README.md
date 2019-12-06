@@ -1,10 +1,10 @@
-# ExampleMod
-An example of a simple mod for Mindustry.
+# RUBENMOD
+A mod that adds a lot of materials and builds.
 
 ## Importing
 
-Simply download this repository as a zip, then import it through the `Mods` dialog in Mindustry. Or, unzip this repo inside Mindustry's `mods/` folder.
+Simply download in reseases, the soucecode as a zip, then import it through the `Mods` dialog in Mindustry. Or, unzip this repo inside Mindustry's `mods/` folder.
 
 ## Contributing
 
-Feel free to submit more example content to this repository. For example sprites, I recommend re-coloring existing blocks and using the existing Mindustry palette.
+Feel free to write in the discord official mindsutry server, "#español" channel your ideas.

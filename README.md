@@ -1,10 +1,8 @@
-# RUBENMOD
-A mod that adds a lot of materials and builds.
-
+## Better Builds Mod v1.1.10a
+Por favor, no toque nada de este mod sin permiso del diseñador
 ## Importing
-
-Simply download in reseases, the soucecode as a zip, then import it through the `Mods` dialog in Mindustry. Or, unzip this repo inside Mindustry's `mods/` folder.
-
-## Contributing
-
-Feel free to write in the discord official mindsutry server, "#español" channel your ideas.
+Para importarlo, vaya a Mindustry y a la pestaña de mods, ahi le tocas import mods y finalmente buscas la ruta del zip
+## Special Thanks to
+-Pyro por Balanceamientos
+-MegaCrash por los sprites
+##Diviertanse

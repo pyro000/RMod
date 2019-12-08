@@ -1,0 +1,23 @@
+{
+	"type": "groundUnit",
+	"name": "Kind",
+	"description": "Esta unidad destruirá lentamente los edificios.",
+	"speed": 0.05, 
+    "damage": 200, 
+    "TargetPriority": "turret", 
+	"flying": false,
+	"health": 5300,
+	"engineOffset": 5.5,
+	"range": 20, 
+	"weapon": {
+        "name": "kind", 
+        "shots": 7, 
+        "width": 32, 
+		"length": 3.0,
+		"reload": 5, 
+		"alternate": true,
+		"bullet": "standardCopper",
+		
+	}
+   "shootSound": pew, 
+}

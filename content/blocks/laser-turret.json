@@ -3,7 +3,7 @@
 	"name": "Torreta Laser",
 	"description": "Torreta capaz de destruir y vaporar cualquier enemigo que encuentre, utiliza muchísima energia.",
 	"health": 3000,
-	"size": 1,
+	"size": 2,
 	"reload": 30,
 	"range": 200,
 	"chargeTime": 7,

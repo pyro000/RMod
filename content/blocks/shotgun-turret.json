@@ -6,7 +6,7 @@ health: 1400
 targetAir: false
 ammoPerShot: 1
 range: 75
-size: 1
+size: 2
 innacuracy: 10
 reload: 100
 shootCone: 45

@@ -8,6 +8,8 @@
     "size": 1,
     "inaccuracy": 50,
     "reload":  0.1,
+    "ammoPerShot": 1,
+    "itemCapacity": 100, 
     "shootCone": 45,
     "rotateSpeed": 40,
     "shots": 4,

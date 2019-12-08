@@ -1,0 +1,14 @@
+name: Nether Mech Pad
+description: Transformate en un Mech de Nether
+type: MechPad
+mech: electra-mech
+size: 2
+consumes: {
+  power: 20
+}
+category: upgrade
+research: wraith-factory
+requirements: [
+  nether/50
+  neon/40
+]

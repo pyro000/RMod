@@ -1,0 +1,24 @@
+type: GroundUnit
+name: Blaster
+description: Un Enorme Monstruo que ayuda a tu base
+speed: 0.05
+flying: false
+health: 6400
+weaponOffSetY: 100
+weaponOffSetX: 100
+engineOffset: 22
+range: 240
+weapon: {
+  name: blaster
+  length: 7
+  spacing: 0
+  shots: 3
+  shotDelay: 40
+  width: 30
+  reload: 10
+  alternate: true
+  damage: 50
+  bullet: standardCopper
+  bulletHeight: 40
+  bulletWidth: 40
+}

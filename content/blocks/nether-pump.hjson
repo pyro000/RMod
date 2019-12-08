@@ -1,0 +1,17 @@
+type: Pump
+name: Nether Pump
+description: Un Extractor de Nether, muy eficaz para sacar grandes cantidades de agua, pero consume una cantidad de energía alta
+health: 750
+size: 4
+hasPower: true
+liquidCapacity: 5000
+consumes: {
+  power: 20
+}
+requirements: [
+nether/20
+neon/20
+]
+pumpAmount: 5
+research: nether-pump
+category: liquid

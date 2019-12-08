@@ -1,0 +1,16 @@
+name: Netheren
+description: Robot hecho de nether, se ve fuerte. 
+speed: 0.6
+boostSpeed: 1.5
+buildPower: 2
+engineColor: "666495"
+flying: false
+health: 450
+weaponOffsetX: 4
+weapon: {
+  name: chrome-blaster
+  length: 1.5
+  reload: 4
+  alternate: false
+  bullet: standardCopper
+}

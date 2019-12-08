@@ -1,0 +1,20 @@
+type: UnitFactory
+name: Factoria de Blasters
+description: Genera blasters que defienden tu base
+maxSpawn: 1
+size: 2
+health: 300
+launchVelocity: 0
+produceTime: 3000
+unitType: blaster-monster
+consumes: {
+  power: 20
+}
+requirements: [
+nether/30
+star/30
+neon/30
+]
+
+category: units
+research: blaster1

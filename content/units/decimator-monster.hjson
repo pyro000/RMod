@@ -1,0 +1,28 @@
+type: groundUnit
+name: Decimator
+description: this unit shots a lot of bullets
+health: 2440
+engineOffSet: 5.5
+range: 275
+flying: false
+speed: 0.05
+weapon: {
+  name: decimator
+  reload: 60
+  shotDelay: 8
+  length: 3.0
+  width: 16
+  alternate: true
+  spacing: 0
+  shots: 5
+  bullet: {
+    type: BasicBulletType
+    damage: 80
+    lifetime: 60
+    speed: 4
+    bulletWidth: 15
+    bulletHeight: 15
+  }
+    shootSound: explosion
+}
+research: decimator-monster

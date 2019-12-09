@@ -3,5 +3,5 @@ name: Porción De Estrella
 description: Pequeña Porción de estrella, usada para crear estrellas
 hardness: 6
 cost: 2.5
-color: ff00ff
+color: FFFB0A
 playerUnmineable: true

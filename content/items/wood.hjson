@@ -3,5 +3,5 @@ name: Arbol
 description: Madera, se puede usar para hacer carbon
 hardness: 0
 cost: 2.5
-color: ff00ff
+color: B36505
 playerUnmineable: true

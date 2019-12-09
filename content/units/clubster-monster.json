@@ -1,0 +1,43 @@
+{
+  "type": "groundUnit",
+  "name": "Clubster",
+  "description": "Esta unidad destruirá lentamente los edificios.",
+  "speed": 0.05, 
+    "TargetPriority": "turret", 
+  "flying": false,
+  "health": 12000,
+  "engineOffset": 5.5,
+  "range": 250, 
+  "weapon": {
+        "name": "clubster", 
+        "shots": 5, 
+        "width": 64, 
+        "spacing": 0,
+        "shotDelay": 8,
+    "length": 6,
+    "reload": 180, 
+    "alternate": true,
+    "bullet": {
+    "type": "BasicBulletType",
+    "bulletSprite": "better-builds-mod-voltio", 
+    "damage": 300,
+    "bulletWidth": 20,
+    "bulletHeight": 20,
+    "lifetime": 75, 
+    "speed": 4, 
+    "fragBullets": 5,
+    "fragBullet": {
+      "lifetime": 50,
+      "speed": 3,
+      "damage": 150,
+      "type": "BasicBulletType", 
+      "bulletSprite": "better-builds-mod-voltio", 
+      "bulletWidth": 20, 
+      "bulletHeight": 20,
+    
+    }
+}, 
+  "shootSound": "bigexplosion", 
+    
+  }
+}

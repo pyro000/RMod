@@ -1,0 +1,10 @@
+type: Wall
+name: Muralla De Obsidiana
+description: Muralla hecha por obsidiana, una opcion para debilitar el ataque enemigo
+health: 18000
+size: 1
+requirements: [
+obsidian/6
+]
+category: defense
+research: star-wall

@@ -1,9 +1,9 @@
 type: DeflectorWall
 name: Muralla Nuclear 
 description: Muralla Nuclear, hecha de aleación 
-health: 12000
+health: 23000
 hitTime: 10
-maxDamageDeflect: 300
+maxDamageDeflect: 400
 size: 2
 requirements: [
 nuclear-ingot/5

@@ -1,0 +1,26 @@
+type: OverdriveProjector
+name: Airblast Overdrive
+description: Maquina que aligera todo lo que está en su rango, a cambio de un alto consumo de energia
+health: 1500
+size: 4
+hasPower: true
+hasItems: true
+hasLiquids: false
+consumes: {
+  power: 50
+}
+phaseRangeBoost: 0
+useTime: 1000
+phase: ffd59e
+color: feb380
+speedBoostPhase: 0
+speedBoost: 4
+range: 150
+reload: 60
+requirements: [
+nether/20
+neon/20
+star/20
+]
+category: effect
+research: airblast-overdrive

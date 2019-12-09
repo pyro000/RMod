@@ -1,0 +1,54 @@
+type: groundUnit
+name: Destructor
+description: Monstruo devastador, hecho si el jugador tiene más de 300 rondas sin perder
+health: 36400
+flying: false
+engineOffSet: 5.5
+speed: 0.04
+weapon: {
+  name: destructor
+  length: 12
+  width: 64
+  shots: 10
+  shotDelay: 5
+  alternate: true
+  spacing: 0
+  reload: 300
+  bullet: {
+    type: BasicBulletType 
+    damage: 200
+    lifetime: 50
+    speed: 6
+    bulletWidth: 50
+    bulletHeight: 50
+    fragBullets: 3
+    fragBullet: {
+    type: BasicBulletType 
+    damage: 100
+    lifetime: 40
+    speed: 5
+    bulletWidth: 30
+    bulletHeight: 30
+    fragBullets: 7
+    fragBullet: {
+    type: BasicBulletType 
+    damage: 60
+    lifetime: 30
+    speed: 4
+    bulletWidth: 17
+    bulletHeight: 17
+    fragBullets: 15
+    fragBullet: {
+    type: BasicBulletType 
+    damage: 30
+    lifetime: 20
+    speed: 3
+    bulletWidth: 8
+    bulletHeight: 8
+        }
+      }
+    }
+  }
+  shootSound: bigexplosion
+}
+research: destructor-monster

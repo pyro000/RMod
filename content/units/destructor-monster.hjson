@@ -49,6 +49,6 @@ weapon: {
       }
     }
   }
-  shootSound: bigexplosion
+
 }
 research: destructor-monster

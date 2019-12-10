@@ -23,6 +23,6 @@ weapon: {
     bulletWidth: 15
     bulletHeight: 15
   }
-    shootSound: explosion
+  
 }
 research: decimator-monster

@@ -1,7 +1,7 @@
 type: groundUnit
 name: Destructor
 description: Monstruo devastador, hecho si el jugador tiene más de 300 rondas sin perder
-health: 36400
+health: 40000
 flying: false
 engineOffSet: 5.5
 speed: 0.04
@@ -13,9 +13,11 @@ weapon: {
   shotDelay: 5
   alternate: true
   spacing: 0
+  shootSound: destructorSND
   reload: 300
   bullet: {
     type: BasicBulletType 
+    bulletSprite: better-builds-mod-missilenuke
     damage: 200
     lifetime: 50
     speed: 6

@@ -5,7 +5,7 @@
   "speed": 0.05, 
     "TargetPriority": "turret", 
   "flying": false,
-  "health": 12000,
+  "health": 16000, 
   "engineOffset": 5.5,
   "range": 250, 
   "weapon": {
@@ -13,6 +13,7 @@
         "shots": 5, 
         "width": 64, 
         "spacing": 0,
+        "shootSound": "clubsterSND", 
         "shotDelay": 8,
     "length": 6,
     "reload": 180, 

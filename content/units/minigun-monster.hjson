@@ -1,0 +1,28 @@
+name: Gunner
+description: Enenigo ametralladora, capaz de pulverizar si está cerca de su objetivo
+health: 700
+type: groundUnit
+flying: false
+speed: 0.06
+innacuracy: 10
+engineOffSet: 5.5
+weapon: {
+  name: minigun
+  length: 1.5 
+  reload: 30
+  alternate: true
+  shots: 8
+  shotDelay: 3
+  spacing: 1
+  bullet: {
+    type: BasicBulletType 
+    damage: 30
+    bulletHeight: 8
+    bulletWidth: 8
+    splashDamageRadius: 5
+    splashDamage: 10
+    lifetime: 30
+    speed: 4
+  }
+}
+research: minigun-monster

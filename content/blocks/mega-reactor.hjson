@@ -1,0 +1,25 @@
+type: SingleTypeGenerator
+name: Generador De Explosion
+description: Genera energia con estrellas, alto riesgo de explosión
+size: 8
+buildCost: 300
+hasLiquids: false
+liquidCapacity: 5000
+health: 4000
+itemCapacity: 100
+powerProduction: 200
+itemDuration: 240
+hasItems: true
+consumes: {
+  items: {
+    items: [
+    star/1
+    ]
+  }
+}
+requirements: [
+star/50
+nether/50
+neon/50
+]
+category: power

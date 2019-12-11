@@ -5,9 +5,10 @@
   "speed": 0.05, 
     "TargetPriority": "turret", 
   "flying": false,
-  "health": 5300,
+  "health": 7900,
   "engineOffset": 5.5,
   "range": 150, 
+  "shootSound": "kindSND", 
   "weapon": {
         "name": "kind", 
         "shots": 5, 

@@ -1,7 +1,7 @@
 type: groundUnit
 name: Decimator
 description: this unit shots a lot of bullets
-health: 2440
+health: 3200
 engineOffSet: 5.5
 range: 275
 flying: false

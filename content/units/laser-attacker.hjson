@@ -1,0 +1,15 @@
+type: groundUnit
+name: Laser Attacker
+description: torreta que se mueve mediante una base con ruedas, alto peligro si se aproxima a los edificios
+health: 8000
+engineOffSet: 5.5
+flying: false
+speed: 0.08
+weapon: {
+  reload: 6
+  name: laser
+  bullet: lightning
+  damage: 150
+  }
+
+research: laser-attacker

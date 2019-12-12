@@ -1,0 +1,57 @@
+type: itemTurret
+name: Ametralladora de Obsidiana
+description: Ametralladora de alta cadencia y bajo rango, util para grandes hordas
+range: 100
+health: 4000
+size: 1
+maxAmmo: 500
+shots: 1
+reload: 8
+innacuracy: 10
+spacing: 0
+ammoPerShot: 1
+ammo: {
+  titanium: {
+    type: BasicBulletType
+    bulletHeight: 10
+    bulletWidth: 10
+    lifetime: 30
+    speed: 4
+    damage: 50
+    
+  }
+   thorium: {
+    type: BasicBulletType
+    bulletHeight: 10
+    bulletWidth: 10
+    lifetime: 30
+    speed: 4
+    damage: 100
+    
+  }
+   wood: {
+    type: BasicBulletType
+    bulletHeight: 10
+    bulletWidth: 10
+    lifetime: 30
+    speed: 4
+    damage: 25
+    
+  }
+   star: {
+    type: BasicBulletType
+    bulletHeight: 10
+    bulletWidth: 10
+    lifetime: 30
+    speed: 4
+    damage: 200
+    
+  }
+}
+
+requirements: [
+star/30
+obsidian/30
+]
+research: obsidian-minigun
+category: turret

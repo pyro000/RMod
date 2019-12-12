@@ -1,0 +1,29 @@
+type: groundUnit
+name: Beam Blaster
+description: Una potente unidad con daño de area capaz de derribar multiple edificios de una bala
+health: 7400
+engineOffSet: 5.5
+flying: false
+speed: 0.05
+weapon: {
+  name: beam
+  length: 6
+  shots: 5
+  shotDelay: 20
+  spacing: 0
+  width: 50
+  alternate: true
+  innacuracy: 6
+  reload: 300
+  bullet: {
+    type: BasicBulletType 
+    bulletSprite: better-builds-mod-beamBlast
+    speed: 8
+    damage: 3000
+    lifetime: 40
+    splashDamageRadius: 100
+    splashDamage: 1000
+    bulletHeight: 80
+    bulletWidth: 40
+  }
+}
